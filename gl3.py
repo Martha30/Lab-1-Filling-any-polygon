@@ -136,8 +136,6 @@ class Renderer(object):
                 limit += 1
 
     
-
-
     #Se tomo de ejemplo lo realizado en clase
     def glLoadModel(self, filename, translate = V2(0.0,0.0), scale = V2(1.0,1.0)):
         
@@ -162,7 +160,6 @@ class Renderer(object):
 
                 self.glLine(V2(x0,y0), V2(x1, y1))
 
-    
 
     # Creación del Bitmap
     def glFinish(self, filename):
@@ -235,7 +232,7 @@ r.glFill(polygono4)
 polygono5 = ((682, 175), (708, 120), (735, 148) ,(739, 170))
 r.glFill(polygono5)
 
-r.glFinish("polygon.bmp")
+r.glFinish("a.bmp")
 
 
 
