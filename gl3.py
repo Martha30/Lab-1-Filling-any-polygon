@@ -82,7 +82,9 @@ class Renderer(object):
         except IndexError:
                 print("\nerror\n")
 
-            
+     #punto normalizado
+    #Solo en las coordenadas específicas
+    #por lo enteros
     def glPoint2(self, x, y, color = None): 
         x = int( (x + 1) * (self.viewportWidth / 2) + self.viewportX )
         y = int( (y + 1) * (self.viewportHeight / 2) + self.viewportY)
